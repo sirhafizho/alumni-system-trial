@@ -1,3 +1,7 @@
 .container-fluid{
     padding : 0px;
 }
+
+.px-wide{
+    width: 1280px;
+}
