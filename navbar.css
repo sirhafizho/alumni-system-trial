@@ -1,3 +1,8 @@
 .container-fluid{
     padding : 0px;
 }
+
+.navborderwidth {
+    border-width: 4px !important;
+}
+
