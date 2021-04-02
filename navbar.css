@@ -2,13 +2,18 @@
     padding : 0px;
 }
 
-.navborderwidth {
-    border-width: 4px !important;
-}
-
 /* .px-wide{
     width: 1280px;
 } */
+
+.navbar.sticky-top {
+    background-color: rgb(180,174,232,0.95) !important;
+}
+
+.border-bottom.border-top {
+    border-color: #ffe3fe !important;
+    border-width: 2px !important;
+}
 
 
 .theCarousel {
@@ -17,7 +22,7 @@
 }
 
 footer {
-    background-color: #011e4a;
+    background-color: #440a67;
     position: static;
     bottom:0;
     left:0;
