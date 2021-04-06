@@ -12,7 +12,7 @@ body{
 }
 
 #botNavbar {
-    background-color: rgb(206, 187, 218);
+    background-color: #f3f3f3;
 }
 
 .navbar-brand {
@@ -21,11 +21,15 @@ body{
 }
 
 #regbutton {
-    color: white;
-    background-color: #c060a1;
+    color: #f3f3f3;
+    background-color: #8f0b89;
     border-radius: 250px;
 }
 
 #regbutton:hover {
     filter: brightness(110%);
+}
+
+#logbutton {
+    border-radius: 250px;
 }
