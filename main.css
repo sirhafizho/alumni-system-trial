@@ -36,11 +36,13 @@ body {
 
 
 #topNavbar {
-    background: transparent;
+    background-color: #8f0b89;
+    
 }
 
 #botNavbar {
     background-color: #f3f3f3;
+    max-height: 110px;
 }
 
 #regbutton {
@@ -76,4 +78,7 @@ body {
     background-color: transparent
 }
 
+#logo-img{
+    filter: drop-shadow(0px 0px 7px black);
+}
 
