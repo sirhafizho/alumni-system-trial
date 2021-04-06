@@ -15,11 +15,6 @@ body{
     background-color: #f3f3f3;
 }
 
-.navbar-brand {
-    display: flex;
-    justify-content: center;
-}
-
 #regbutton {
     color: #f3f3f3;
     background-color: #8f0b89;
