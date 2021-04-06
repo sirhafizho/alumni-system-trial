@@ -6,3 +6,26 @@ body{
     background: rgb(31,42,54);
     background: linear-gradient(180deg, rgba(31,42,54,1) 0%, rgba(143,11,137,1) 100%);
 }
+
+#topNavbar {
+    background-color: #6a097d;
+}
+
+#botNavbar {
+    background-color: rgb(206, 187, 218);
+}
+
+.navbar-brand {
+    display: flex;
+    justify-content: center;
+}
+
+#regbutton {
+    color: white;
+    background-color: #c060a1;
+    border-radius: 250px;
+}
+
+#regbutton:hover {
+    filter: brightness(110%);
+}
