@@ -86,11 +86,12 @@ body {
 /* ------------------------------------------------------- */
 
 main {
-    min-height: calc(100vh - 52px - 110px - 585.45px);
+    min-height: calc(100vh - 52px - 110px - 656.8px);
 }
 
 
 footer {
+    padding-top: 20px;
     background-color: #f3f3f3;
     text-align: center;
     position: relative;
