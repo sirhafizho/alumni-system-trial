@@ -99,6 +99,15 @@ footer {
     width: 100%;
 }
 
+.footer-link a{
+    text-decoration: none;
+}
+
+.footer-link a:hover, a:focus{
+    text-decoration: underline;
+}
+
+
 .row{
     padding-bottom: 20px;
 }
