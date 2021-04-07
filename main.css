@@ -103,7 +103,12 @@ footer {
     padding-bottom: 20px;
 }
 
-
+#map {
+    height: 300px;
+    /* The height is 400 pixels */
+    width: 300px;
+    /* The width is the width of the web page */
+  }
 
 /* .resize {
     width: 250px;

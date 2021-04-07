@@ -10,6 +10,25 @@
     <link rel="stylesheet" href="main.css">
     <link rel="icon" href="img/logo_um_without_text.png" type="image/png">
     <title>FSKTM Alumni</title>
+
+    <script>
+        // Initialize and add the map
+        function initMap() {
+          // The location of Uluru
+          const uluru = { lat: 3.128770468020777, lng: 101.65073771534342 };
+          // The map, centered at Uluru
+          const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 17,
+            center: uluru,
+          });
+          // The marker, positioned at Uluru
+          const marker = new google.maps.Marker({
+            position: uluru,
+            map: map,
+          });
+        }
+      </script>
+
 </head>
 
 
@@ -56,6 +75,7 @@
             </div>
         </nav>
         
+        
 
         <footer>
             <div class="container-fluid">
@@ -63,7 +83,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <a href="index.html">
-                                <img src="img/FCSIT Logo New.png" alt="" height="67%" width="67%" class="img-fluid">
+                                <img src="img/FCSIT Logo New.png" alt="" height="80%" width="80%" class="img-fluid">
                             </a>
                         </div>
                         <div class="col-md-4 d-flex align-items-center justify-content-center">
@@ -97,11 +117,20 @@
                                 </ul>
                             </h5>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col justify-content-center">
+                            
+                                <div id="map"></div>
+
+                                <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+                                <script
+                                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVtr5sUBYuVy6QWlxdX19VRvP8dX9INUI&callback=initMap&libraries=&v=weekly"
+                                async></script>
+                            
+                            <br>
                             <p class="h6 lh-1" style="text-align: justify;">University of Malaya, 50603 Kuala Lumpur,
                                 Federal Territory of Kuala Lumpur, Malaysia
                             </p>
-                            <p>//try adding google maps api</p>
+                            
                         </div>
                     </div>
                     
