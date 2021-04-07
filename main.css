@@ -86,7 +86,7 @@ body {
 /* ------------------------------------------------------- */
 
 main {
-    min-height: calc(100vh - 52px - 110px - 656.8px);
+    min-height: calc(100vh - 52px - 110px - 660.8px);
     padding: 20px;
     
 }
