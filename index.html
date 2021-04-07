@@ -14,26 +14,27 @@
     <script>
         // Initialize and add the map
         function initMap() {
-          // The location of Uluru
-          const uluru = { lat: 3.128770468020777, lng: 101.65073771534342 };
-          // The map, centered at Uluru
-          const map = new google.maps.Map(document.getElementById("map"), {
-            zoom: 17,
-            center: uluru,
-          });
-          // The marker, positioned at Uluru
-          const marker = new google.maps.Marker({
-            position: uluru,
-            map: map,
-          });
+            // The location of Uluru
+            const uluru = { lat: 3.128770468020777, lng: 101.65073771534342 };
+            // The map, centered at Uluru
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 17,
+                center: uluru,
+            });
+            // The marker, positioned at Uluru
+            const marker = new google.maps.Marker({
+                position: uluru,
+                map: map,
+            });
         }
-      </script>
+    </script>
 
 </head>
 
 
 <body>
     <div class="container-fluid p-0 m-0">
+
 
         <header>
             <nav id="topNavbar" class="navbar navbar-dark navbar-expand-md">
@@ -74,10 +75,11 @@
 
             </div>
         </nav>
-        
+
         <main>
 
         </main>
+
 
 
         <footer>
@@ -109,28 +111,25 @@
                             <h5>
                                 <ul class="list-unstyled mb-0">
                                     <li>
-                                      <a href="about.html" class="text-dark">About Us</a>
+                                        <a href="about.html" class="text-dark">About Us</a>
                                     </li>
                                     <li>
-                                      <a href="contact.html" class="text-dark">Contact</a>
+                                        <a href="contact.html" class="text-dark">Contact</a>
                                     </li>
                                     <li>
-                                      <a href="jobs.html" class="text-dark">Search Jobs</a>
+                                        <a href="jobs.html" class="text-dark">Search Jobs</a>
                                     </li>
                                 </ul>
                             </h5>
                         </div>
                         <div class="col">
                             <div id="map"></div>
-
-                                
                             <script
-                            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVtr5sUBYuVy6QWlxdX19VRvP8dX9INUI&callback=initMap&libraries=&v=weekly"
-                            async></script>
-                        
+                                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVtr5sUBYuVy6QWlxdX19VRvP8dX9INUI&callback=initMap&libraries=&v=weekly"
+                                async></script>
                             <br>
                             <p class="h6 lh-1" style="text-align: justify;">University of Malaya, 50603 Kuala Lumpur,
-                            Federal Territory of Kuala Lumpur, Malaysia
+                                Federal Territory of Kuala Lumpur, Malaysia
                             </p>
                         </div>
                     </div>
@@ -140,8 +139,10 @@
                 </div>
             </div>
         </footer>
-        
+
     </div>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
         integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
