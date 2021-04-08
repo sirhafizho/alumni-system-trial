@@ -45,13 +45,8 @@ body {
 }
 #topNavbar a {
     position: relative;
-    z-index: 20;
-}
-#topNavbar a:focus, #botNavbar a:focus {
-    text-decoration: none;
 }
 #botNavbar {
-    z-index: 10;
     background-color: #f3f3f3;
     max-height: 110px;
 }
@@ -66,8 +61,6 @@ body {
 #logbutton {
     border-radius: 200px;
     color: #8f0b89;
-    background-color: transparent;
-    background-image: none;
     border-color: #8f0b89;
 }
 #logbutton:hover {
@@ -77,10 +70,6 @@ body {
 }
 #logbutton:focus {
     box-shadow: 0 0 0 .2rem rgba(143, 11, 137, 0.5);
-}
-#logbutton:disabled {
-    color: #8f0b89;
-    background-color: transparent
 }
 
 /* ------------------------------------------------------- */
