@@ -111,7 +111,7 @@ footer {
 }
 
 
-.footer-link a:hover, a:focus{
+.footer-link a:hover{
     text-decoration: underline;
 }
 #map {
