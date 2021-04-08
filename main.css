@@ -117,7 +117,7 @@ footer {
 #map {
     height: 300px;
     /* The height is 400 pixels */
-    width: 300px;
+    width: auto;
     /* The width is the width of the web page */
   }
   /* ------------------------------------------------------- */
