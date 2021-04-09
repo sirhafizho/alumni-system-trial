@@ -224,7 +224,14 @@ footer {
 }
 
 #event-card{
-    color:black
+    border-radius: 4px;
+    color:black;
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+}
+
+#event-card:hover{
+    transform: scale(1.05);
+    z-index: 5;
 }
 
 .event-info a {
