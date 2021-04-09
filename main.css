@@ -213,6 +213,7 @@ footer {
 }
 .jumbotron-button:hover{
     filter: brightness(110%);
+    box-shadow: 0 0 15px #ffffff !important;
 }
 .featurette-divider{
     background-color: white;
