@@ -158,7 +158,12 @@ footer {
     }
 
     .jumbotron-button{
-        border-radius: 20px;
+        border-radius: 15px;
+        font-size: 92%;
+    }
+
+    #jumbo-col{
+        flex: none;
     }
 }
 
@@ -179,7 +184,16 @@ footer {
     background-size: cover;
     border-radius: .4rem;
     color: white;
-  }
+}
+
+.jumbotron-events {
+    margin-top: 1rem;
+    padding: 2rem 2rem;
+    margin-bottom: 2rem;
+    background: rgba(0,0,0,0.60);
+    border-radius: .4rem;
+    color: white;
+}
 
 .jumbotron-button{
     color: black;
@@ -195,6 +209,22 @@ footer {
 .featurette-divider{
     background-color: white;
 }
+
+#home-container{
+    max-width: 85vw;
+}
+
+#event-card{
+    color:black
+}
+
+.event-info a {
+    text-decoration: none;
+    font-weight: 800;
+    color: #8f0b89;
+}
+
+
 /* ------------------------------------------------------- */
 
 
