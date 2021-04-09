@@ -19,6 +19,7 @@ body {
     animation: Gradient 20s ease-in-out infinite;
     position: relative;
     min-height: 100vh;
+    transform: translateZ(0);
 }
 
 @keyframes Gradient {
@@ -196,10 +197,12 @@ footer {
     height: auto;
     padding: 10px;
     @include box-sizing(border-box);
+    transition: 0.4s;
 }
 .form-signin .form-control:focus {
     z-index: 2;
     border-color: #8f0b89;
+    box-shadow: 0 0 15px #c532be !important;
 }
 .form-signin ::placeholder {
     color: #8f0b89;
