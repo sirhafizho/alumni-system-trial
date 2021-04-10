@@ -48,7 +48,7 @@ body {
     z-index: 10;
 }
 #botNavbar {
-    z-index: 5;
+    z-index: 9;
     background-color: #f3f3f3;
     max-height: 110px;
 }
