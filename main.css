@@ -45,13 +45,13 @@ body {
 
 #topNavbar {
     background-color: #8f0b89;
+    z-index: 10;
 }
-
 #botNavbar {
+    z-index: 5;
     background-color: #f3f3f3;
     max-height: 110px;
 }
-
 #regbutton {
     color: #f3f3f3;
     background-color: #8f0b89;
