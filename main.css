@@ -45,12 +45,16 @@ body {
 
 #topNavbar {
     background-color: #8f0b89;
+    font-weight: 800;
     z-index: 10;
 }
 #botNavbar {
     z-index: 9;
     background-color: #f3f3f3;
     max-height: 110px;
+}
+#regbutton , #logbutton {
+    padding: 0.65rem 1.45rem;
 }
 #regbutton {
     color: #f3f3f3;
@@ -327,6 +331,7 @@ footer {
 
 
 /* ------------------------------------------------------- */
+
 
 /* Register PAGE */
 /* ------------------------------------------------------- */
